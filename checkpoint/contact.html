@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Checkpoint</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body id="contact" class="container-fluid">
+    <nav class="navbar navbar-inverse">
+        <div class="container-fluid">
+          <div class="navbar-header">
+            <a href="#"><img src="res/section2GMCLogo.png" alt="logo" class="logo"></a>
+          </div>
+          <ul class="nav navbar-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li class="active"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    <div class="coursesimg">
+        <div class="coursestxt">
+            <h1 class="courset">contact</h1>
+        </div>
+    </div>
+    <form id="ContactForm">
+    <label class="formlabel"><b>Name</b></label>
+    <br>
+    <input id="name" class="form-control" type="text" placeholder="Your name">
+    <br>
+    <label class="formlabel"><b>Track</b></label>
+    <br>
+        <select id="track" class="form-control" id="contactslct">
+            <option>Web</option>
+            <option>IA</option>
+            <option>Game</option>
+        </select>
+    <br>
+    <label class="formlabel"><b>Email Adress</b></label>
+    <br>
+    <input id="email" class="form-control" type="email" placeholder="name@example.com">
+    <br>
+    <label class="formlabel"><b>Phone Number</b></label>
+    <br>
+    <input id="number" class="form-control" type="number" placeholder="Your phone number here">
+    <br><br>
+    <button id="submit" class="btn btn-primary">Submit</button>
+    </form>
+<br><br>
+
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.1/firebase-database.js"></script>
+<script src="js/main_contact.js"></script>
+</html>

@@ -1,0 +1,221 @@
+h1,h3{
+    color:white;
+    margin-top:100px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image:linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),
+    linear-gradient(127deg, black, black 70.71%),
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+a{
+    color:white !important;
+    letter-spacing: 2px !important;
+    font-weight: bold !important;
+    font-size: large !important;
+    text-decoration: none !important;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif !important;
+    text-transform: uppercase !important;
+}
+#cta{
+    display: flex;
+    margin-left: 41%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+}
+a:hover{
+    color:red;
+}
+.imgs{
+    height:900px !important;
+    width: 100% !important;;
+}
+.formlabel{
+    margin-left: 55px;
+}
+.form-control, #contactslct{
+    width: 250px;
+    height: 35px;
+    background-color: rgb(19, 18, 18);
+    border-radius: 5px;
+    color: white;
+}
+form{
+    margin-left: 41%;
+    padding-top: 5%;
+    display: block;
+}
+label{
+    color:white;
+}
+.btn-primary{
+    margin-left: 90px;
+}
+iframe{
+    margin-left:35%;
+}
+.mid{
+    margin-left: 40%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a{
+    padding:10px;
+    font-style: normal; 
+}
+textarea, #bld, #itlc, #undr, #size, #fnt{
+    background-color: rgb(27, 27, 27);
+    border-color: rgb(63, 63, 63);
+    color: white;
+    font-size: small;
+}
+textarea:focus{
+    outline: none;
+}
+textarea{
+    font-size: 20px;
+    max-height: 180px;
+    max-width: 40%;
+    margin-left: 30%;
+    border-radius: 3mm;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+    margin-left: -600px;
+    background-color: transparent;
+}
+.navbar-inverse{
+    width: 100% !important;
+    display: flex;
+    margin-left: 0% !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    background-color: transparent;
+    border-style: none !important;
+}
+
+.course123{
+    display: flex;
+    margin-left: 20%;
+    margin-right: 20%;
+    justify-content: space-around;
+    align-items: center;
+}
+.btncourse1, .btncourse2, .btncourse3, .btncourse4, .btncourse5, .btncourse6, .btncourse7, .btncourse8, .btncourse9{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#btn1, #btn2, #btn3,#btn1c, #btn2c, #btn3c, #btn4c, #btn5c, #btn6c, #btn7c, #btn8c, #btn9c{
+    color: white;
+    background-color: black;
+    border-color: gray;
+    cursor: pointer;
+}
+.course1{
+    height: 250px;
+    width: 250px;
+    background-image: url("C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/course1.png");
+    background-size: cover; 
+    display: inline-block;
+    text-align: center;
+}
+
+.course2{
+    height: 250px;
+    width: 250px;
+    background-image: url(C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/course2.png);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+.course3{
+    height: 250px;
+    width: 250px;
+    background-image: url(C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/course3.png);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+.course4{
+    height: 250px;
+    width: 250px;
+    background-image: url(C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/course4.png);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+.course5{
+    height: 250px;
+    width: 250px;
+    background-image: url(C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/course5.png);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+.course6{
+    height: 250px;
+    width: 250px;
+    background-image: url(C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/course6.png);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+.course7{
+    height: 250px;
+    width: 250px;
+    background-image: url(C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/course7.png);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+.course8{
+    height: 250px;
+    width: 250px;
+    background-image: url(C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/course8.png);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+.course9{
+    height: 250px;
+    width: 250px;
+    background-image: url(C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/course9.png);
+    background-size: cover;
+    display: inline-block;
+    text-align: center;
+}
+#vm{
+    display: inline-block;
+    margin-left: 45%;
+}
+.coursesimg{
+    height: 450px;
+    width: 100%;
+    background-image: url(C:/Users/jacco/Desktop/GoMyCode/checkpoint/res/courses.png);
+    background-size: cover;
+    text-align: center;
+}
+.coursestxt{
+    display: inline-block;
+    margin-top: 120px;
+}
+.courset{
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 4em;
+    font-family: serif;
+}
+.modal-content{
+    background-color: black;
+    color: white;
+    margin-top: 43%;
+}
+.close{
+    color: white;
+}
+p{
+    margin-left: 25px;
+}
